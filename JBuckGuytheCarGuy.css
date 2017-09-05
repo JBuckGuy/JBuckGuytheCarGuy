@@ -1,0 +1,95 @@
+header nav {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
+nav li {
+float:left;
+}
+nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li>a {
+  text-decoration: none;
+}
+
+nav ul li>a:hover {
+  text-decoration: underline;
+}
+header div a img {
+  position: relative;
+  margin-left: auto;
+  top: 72px;
+  height: 300px;
+  width: 300px;
+}
+header div span {
+  font-size: 1500%;
+  position: relative;
+}
+header div input {
+  position: absolute;
+  align-right: auto;
+  right: 100px;
+}
+header nav {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+.navbar-background {
+  background-color: #darkblue;
+}
+
+.navlink {
+  height: 35px;
+  margin-right: 10px;
+  font-size: 18px;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.navlink.active {
+  color: lightblue;
+  background-color: darkgray;
+}
+body {
+  background-color: lightgray;
+}
+h1 {
+  font-family: fantasy;
+}
+h4 {
+  font-family: "Courier New", Courier, monospace
+}
+.test {
+  width: 600px;
+}
